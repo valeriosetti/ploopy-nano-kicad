@@ -26,6 +26,22 @@ For technical and components' availability reasons, this design is slightly diff
 * smaller crystal (in size)
     * I could not find the original crystal available on JLCPCB, so I switched to an equivalent one which unfortunately has smaller footprint
 
+# Board's design
+
+The placement of componenets on the board was obtained using FreeCAD:
+
+* I loaded PCB's step file into FreeCAD
+* Generated a 2D top view of the PCB
+* Exported into DXF
+* Impoted the DXF into KiCAD
+
+Similarly I did also for the layout of the PCB itself. In this case:
+
+* I imported the layout of the board in FreeCAD using KiCadStepUp plugin
+* Ridesigned the edges of the board
+* Exported again into the *kicad_pcb* file
+* Reopened KiCAD with new shape
+
 # Extra
 
 The **jlcpcb** folder contain gerber, BOM and placement files I used to order from JLCPCB site. They have been automatically generated from the specific KiCAD's extension.
