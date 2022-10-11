@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "TYPE-C-31-M-12")(type "KiCad")(uri "${KIPRJMOD}/library/TYPE-C-31-M-12")(options "")(descr ""))
+  (lib (name "IP4220CZ6")(type "KiCad")(uri "${KIPRJMOD}/library/IP4220CZ6")(options "")(descr ""))
+  (lib (name "ADNS-2610")(type "KiCad")(uri "${KIPRJMOD}/library/ADNS-2610")(options "")(descr ""))
+  (lib (name "A67F")(type "KiCad")(uri "${KIPRJMOD}/library/SIDELED-A67F/A67F.pretty")(options "")(descr ""))
+)

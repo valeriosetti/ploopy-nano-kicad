@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name "IP4220CZ6")(type "Legacy")(uri "${KIPRJMOD}/library/IP4220CZ6/IP4220CZ6.lib")(options "")(descr ""))
+  (lib (name "TYPE-C-31-M-12")(type "Legacy")(uri "${KIPRJMOD}/library/TYPE-C-31-M-12/TYPE-C-31-M-12.lib")(options "")(descr ""))
+  (lib (name "ECS-160-12-30B-AGM-TR")(type "Legacy")(uri "${KIPRJMOD}/library/ECS-160-12-30B-AGM-TR/ECS-160-12-30B-AGM-TR.lib")(options "")(descr ""))
+  (lib (name "adns-5050")(type "KiCad")(uri "${KIPRJMOD}/library/ADNS-5050/adns-5050.kicad_sym")(options "")(descr ""))
+)
