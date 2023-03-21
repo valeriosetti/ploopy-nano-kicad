@@ -47,3 +47,7 @@ Similarly I did also for the layout of the PCB itself. In this case:
 The **jlcpcb** folder contain gerber, BOM and placement files I used to order from JLCPCB site. They have been automatically generated from the specific KiCAD's extension.
 
 Some components, likes the ATmega32U4 or the LED, are not present in the BOM because they're out of stock on JLCPCB, so I'm planning to buy them separately and solder manually.
+
+# Results
+
+Since the description is quite long I decided to create a specific [readme file](result/README.md) for this in order to explain also the step I did for the bringup.
