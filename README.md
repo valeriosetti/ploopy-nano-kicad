@@ -51,3 +51,15 @@ Some components, likes the ATmega32U4 or the LED, are not present in the BOM bec
 # Results
 
 Since the description is quite long I decided to create a specific [readme file](result/README.md) for this in order to explain also the step I did for the bringup.
+
+# Final thoughts
+
+Even thought it's a nice project, there are a few things which might be known for anyone who attempts at building it:
+
+* the ADNS-5050 is absolutely impossible to find, at least here in Europe. I ended up buying the ADNS-5020 which is pin to pin compatible, but also for that one it was a mess: the 1st order from Aliexpress was lost somewhere and the 2nd one took some time to be delivered (which is not so common nowadays when buying from Aliexpress)
+* the 38 mm (1.5 inches) ball is not easy to find as well. I know, those are used for small billiard balls, but if you don't want to buy an entire set of billiard ball for just using 1, then good luck in finding something
+
+In general I strongly suggest to take a look and consider also ![jfedor2](https://github.com/jfedor2)'s projects:
+* they are based on a RP2040 microcontroller, which you can find at almost the same price of the ATMEGA, but it's way more powerfull 
+* he provides the project directly for KiCAD with also gerber files for JLCPCB--> https://github.com/jfedor2/rp2040-pmw3360
+* he used another sensor, PMW3360, which seems way more easy to find online
